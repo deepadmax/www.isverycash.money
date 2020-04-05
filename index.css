@@ -1,0 +1,42 @@
+html {
+  background-image: url(./imgs/space.jpeg);
+  background-repeat: repeat;
+
+  text-align: center;
+  color: white;
+}
+
+span#memes img {
+  width: 300px;
+  height: 200px;
+}
+
+
+a:link { color: cyan; }
+a:visited { color: cyan; }
+a:hover { color: hotpink; }
+a:active { color: blue; }
+
+
+
+/* Three Columns Layout */
+
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 35%;
+}
+
+.left {
+  text-align: right;
+}
+
+.right {
+  text-align: left;
+}
+
+.middle {
+  width: 30%;
+}
