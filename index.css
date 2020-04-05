@@ -4,6 +4,9 @@ html {
 
   text-align: center;
   color: white;
+
+  max-width: 100%;
+  margin: auto;
 }
 
 span#memes img {
@@ -21,8 +24,14 @@ a:active { color: blue; }
 
 /* Three Columns Layout */
 
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
+  padding: 10px;
 }
 
 .left, .right {
@@ -39,4 +48,11 @@ a:active { color: blue; }
 
 .middle {
   width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
