@@ -5,7 +5,7 @@ html {
   text-align: center;
   color: white;
 
-  max-width: 100%;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -24,35 +24,34 @@ a:active { color: blue; }
 
 /* Three Columns Layout */
 
-* {
-  box-sizing: border-box;
+table#ThreeColumnLayout {
+  width: 100%;
 }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-}
-
-.left, .right {
-  width: 35%;
-}
-
-.left {
+td#left {
+  vertical-align: top;
   text-align: right;
+
+  width: 200px;
 }
 
-.right {
+td#middle {
+  vertical-align: top;
+  text-align: center;
+
+  width: 700px;
+}
+
+td#right {
+  vertical-align: top;
   text-align: left;
+
+  width: 200px;
 }
 
-.middle {
-  width: 30%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+mark.adud {
+  font-size:13.5px;
+  background-color: yellow;
 }
