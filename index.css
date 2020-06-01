@@ -55,3 +55,10 @@ mark.adud {
   font-size:13.5px;
   background-color: yellow;
 }
+
+
+
+/* BUY NOW section */
+h1#buydomain { color: magenta }
+a:link#bid { color: magenta }
+#price { color: magenta }
